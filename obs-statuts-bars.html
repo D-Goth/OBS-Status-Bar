@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--
   ╔══════════════════════════════════════════════════════╗
-  ║                     OBS STATUS BARS                  ║
+  ║                     OBS STATUTS BARS                  ║
   ║                 Monitoring WebSocket OBS             ║
   ╚══════════════════════════════════════════════════════╝
   Auteur : D-Goth / Black‑Lab
@@ -21,9 +21,9 @@
 <meta name="author" content="D-Goth / Black‑Lab.fr">
 <meta name="license" content="CC BY-NC 4.0">
 <meta name="version" content="1.0">
-<meta name="description" content="OBS Status Bars — Monitoring WebSocket pour OBS">
+<meta name="description" content="OBS Statuts Bars — Monitoring WebSocket pour OBS">
 
-<title>OBS Status Bars</title>
+<title>OBS Statuts Bars</title>
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -93,7 +93,7 @@
   }
   .th-val { font-size: 9px; color: #666; text-align: center; min-width: 28px; }
 
-  /* ══════════════ STATUS BAR ══════════════ */
+  /* ══════════════ STATUTS BAR ══════════════ */
   #bar {
     display: none; width: 100%; height: 100%;
     padding: 3px 8px 3px 6px;
@@ -150,7 +150,7 @@
 
 <!-- ══ SETUP PANEL ══ -->
 <div id="setup" class="panel">
-  <h3>OBS STATUS BARS · Connexion</h3>
+  <h3>OBS STATUTS BARS · Connexion</h3>
   <div class="row"><label>Hôte</label><input id="host" type="text" value="localhost"></div>
   <div class="row"><label>Port</label><input id="port" type="number" value="4455"></div>
   <div class="row"><label>Mot de passe</label><input id="password" type="password" placeholder="Laisser vide si désactivé"></div>
@@ -216,7 +216,7 @@
   <div class="msg ok" id="thresh-msg"></div>
 </div>
 
-<!-- ══ STATUS BAR ══ -->
+<!-- ══ STATUTS BAR ══ -->
 <div id="bar">
   <span class="fps" id="fps-lbl">--.-- FPS</span>
   <div class="sep"></div>
