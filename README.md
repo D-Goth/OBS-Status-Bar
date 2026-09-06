@@ -1,4 +1,4 @@
-# **OBS Status Bars**
+# **OBS Statuts Bars**
 
 Real‑time monitoring for OBS · 7 metrics · Configurable thresholds · WebSocket
 
